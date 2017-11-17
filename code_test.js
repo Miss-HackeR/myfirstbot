@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
-const { prefix, token } = require('./config.json');
+const prefix="--";
+const token="Mzc5NTYxODkzOTA1NTYzNjQ5.DOtiXA._LGYDAS7cD9Egg42API61TQoqJY";
 var client = new Discord.Client();
 const config = require('./config.json');
 var client = new Discord.Client();
