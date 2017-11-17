@@ -250,15 +250,7 @@ if (command == "help") { // creates a command *help
 });
 
 
-//role made
-client.on('roleCreate', role => {
-    let channel =  
-    client.channels.find("name", "testing-").sendMessage(`**${role.name}** has been made :spy:`);
- });
 
-client.on('disconnect', function() {
-    console.log("An error cause your bot to go offline! ");
-  });
 
 
 
