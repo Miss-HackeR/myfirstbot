@@ -249,26 +249,7 @@ if (command == "help") { // creates a command *help
 
 });
 
-//joined
-client.on('guildMemberAdd', member => {
-    let guild = member.guild;
-    const embed = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setTimestamp()
-    .addField('User Update',
-      `${member.user} has joined! :white_check_mark: `)
-      client.channels.find("name", "spawn_point").sendEmbed(embed);
-  });
-//leave
-client.on('guildMemberRemove', member => {
-    let guild = member.guild;
-    const embed = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setTimestamp()
-    .addField('User Update',
-      `${member.user} has left! :neutral_face: `)
-      client.channels.find("name", "spawn_point").sendEmbed(embed);
-  });
+
 //role made
 client.on('roleCreate', role => {
     let channel =  
