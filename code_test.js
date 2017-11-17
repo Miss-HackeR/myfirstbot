@@ -282,4 +282,4 @@ client.on('disconnect', function() {
 
 
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
